@@ -16,8 +16,7 @@ public class Game extends JPanel {
 	Ball ball = new Ball(this);
 	Racquet racquet = new Racquet(this);
 	int speed = 1;
-	int test = 0;
-	int test1 = 0;
+
 	private int getScore() {
 		return speed - 1;
 	}
